@@ -55,7 +55,10 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1>Under Construction. Hi, I am <span class="about__name">Charles Zhang.</span></h1>
+        <h1>
+          Under Construction. Hi, I am
+          <span class="about__name">Charles Zhang.</span>
+        </h1>
         <h2 class="about__role">A Software Engineer (Graphics/GPU).</h2>
         <p class="about__desc">
           Hello and welcome to my portfolio website! I am a graphics engineer at
@@ -96,36 +99,47 @@
         </div>
       </div>
 
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">C++ (Expert)</li>
-          <li class="skills__list-item btn btn--plain">
-            DirectX12/HLSL (Expert)
-          </li>
-          <li class="skills__list-item btn btn--plain">CUDA (Proficient)</li>
-          <li class="skills__list-item btn btn--plain">RenderDoc/PIX (Proficient)</li>
-          <li class="skills__list-item btn btn--plain">Python (Intermediate)</li>
-        </ul>
-      </section>
-
       <!-- Projects -->
       <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
+        <h2 class="section__title">Professional Projects</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Diablo IV</h3>
+            <p class="project__description">
+              Crafting top-tier visuals for Diablo IV.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Proprietary Engine</li>
+            </ul>
+            <a
+              href="https://news.blizzard.com/en-us/diablo4/23964183/peeling-back-the-varnish-the-graphics-of-diablo-iv"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Side Projects</h2>
+        <p>
+          Guideline: instead of showing a bunch of projects, show a few
+          highlighted projects.
+        </p>
 
         <div class="projects__grid">
           <div class="project">
-            <h3>Project 1</h3>
+            <h3>Project DX12</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+              This should really showcase some unique/interesting stuff done in
+              DX12. Should really be above and beyond what's in Luna's book.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">DirectX12/HLSL</li>
             </ul>
 
             <a
@@ -145,16 +159,12 @@
           </div>
 
           <div class="project">
-            <h3>Project 2</h3>
+            <h3>Project CUDA</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+              This should be your proudest CUDA project.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">CUDA</li>
             </ul>
 
             <a
@@ -174,16 +184,12 @@
           </div>
 
           <div class="project">
-            <h3>Project 3</h3>
+            <h3>Project Python</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+              This is showing that you "know" python.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Python</li>
             </ul>
 
             <a
@@ -202,6 +208,24 @@
             </a>
           </div>
         </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++ (Expert)</li>
+          <li class="skills__list-item btn btn--plain">
+            DirectX12/HLSL (Expert)
+          </li>
+          <li class="skills__list-item btn btn--plain">CUDA (Proficient)</li>
+          <li class="skills__list-item btn btn--plain">
+            RenderDoc/PIX (Proficient)
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            Python (Intermediate)
+          </li>
+        </ul>
       </section>
 
       <!-- Contact -->
